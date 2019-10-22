@@ -1,0 +1,3 @@
+[submodule "Quake3ReBranding"]
+	path = Quake3ReBranding
+	url = https://github.com/openkrown/Quake3ReBranding.git

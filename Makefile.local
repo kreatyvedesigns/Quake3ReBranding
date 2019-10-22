@@ -1,0 +1,35 @@
+#
+# ekron Makefile
+#
+# GNU Make required
+#
+
+ifndef BUILD_STANDALONE
+  BUILD_STANDALONE = 1
+endif
+
+ifndef VERSION
+VERSION=1.36
+endif
+
+ifndef BUILD_RENDERER_OPENGL2
+  BUILD_RENDERER_OPENGL2=1
+endif
+
+ifndef CLIENTBIN
+CLIENTBIN=ekron
+endif
+
+ifndef SERVERBIN
+SERVERBIN = ekron-ded #ioq3ded
+endif
+
+ifndef BASEGAME
+BASEGAME=base
+endif
+
+ifndef USE_FREETYPE
+USE_FREETYPE=1
+endif
+
+
